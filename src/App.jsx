@@ -8,7 +8,7 @@ import AOS from 'aos'
 import Services from './Services'
 import Packages from './Page/Packages'
 import Contact from './Page/Contact'
-import Whyus from './Page/whyus'
+import Use from './Page/Use'
 const App = () => {
   // AOS
 
@@ -25,7 +25,7 @@ const App = () => {
       <Route path='/about' element = {<About />}></Route>
       <Route path='/services' element = {<Services />}></Route>
       <Route path='/packages' element = {<Packages />}></Route>
-      <Route path='/whyus' element ={<Whyus />}></Route>
+      <Route path='/whyus' element ={<Use />}></Route>
       <Route path='/contact' element = {<Contact />}></Route>
     </Routes>
     <Footer />
