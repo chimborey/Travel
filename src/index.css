@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font-title */
+.font-title{
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: bold;
+      font-size: 1.7rem;
+      color: oklch(49.399% 0.10574 70.116);
+      text-transform: uppercase;
+}
+
+/* font */
+.font{
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: bold;
+      font-size: 1.2rem;
+      color:rgb(14, 13, 13);
+      text-transform: capitalize;
+}
+/* hero */
+.hero{
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: bold;
+      font-size: 4.5rem;
+      color: oklch(97.7% 0.013 236.62);
+      text-transform: capitalize;
+      text-align: center;
+}
+.hero-font{
+      ffont-family: "Bebas Neue", sans-serif;
+      font-weight: bold;
+      font-size: 1.3rem;
+      color: oklch(97.7% 0.013 236.62);
+      text-transform: capitalize;
+      text-align: center;
+}
+/* hero */
+.about{
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: bold;
+      font-size: 2.5rem;
+      color: black;
+      text-transform: capitalize;
+}
+.about-desc{
+      font-family: "Shadows Into Light", cursive;
+      font: size 0.9em;
+      color: oklch(55.2% 0.016 285.938);
+}
+.service-desc{
+      font-family: "Shadows Into Light", cursive;
+      font: size 0.9em;
+      color: oklch(49.553% 0.10556 281.852);
+      text-transform: capitalize;
+}
+/* font-text */
+.font-text{
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: bold;
+      font-size: 1.2rem;
+      color: oklch(77.505% 0.12983 200.54);
+      text-transform: capitalize;
+      transition: all 0.5s linear;
+      position: relative;
+}
+.font-text:hover{
+      color: oklch(52% 0.105 223.128);
+      transition-duration: 0.5s;
+}
+
+
+/* font-desc */
+.font-desc{
+      font-family: "Shadows Into Light", cursive;
+      font: size 0.9em;
+      color: oklch(55.2% 0.016 285.938);
+      text-indent: 20px;
+}
+/* active */
+hr{
+      width: 80%;
+      height: 10%;
+      background-color: red;
+      position: absolute;
+      bottom: -2px;
+      border: none;
+      outline: none;
+
+}
+/* btn */
+.btn{
+      width: 150px;
+      border: 1px solid orange;
+      border-radius: 7px;
+      padding: 7px 7px;
+      text-align: center;
+      transition: all 0.5s linear;
+      text-transform: capitalize;
+      color: oklch(70.079% 0.11842 201.235);
+      font-size: 18px;
+      font-weight: 400;
+      font-family: "Bebas Neue", sans-serif;
+}
+.btn:hover{
+      transform: rotate(2deg);
+      transition-duration: 0.5s;
+      background-color: orange;
+      color:oklch(97.7% 0.013 236.62) ;
+}
+.div{
+      width: 130px;
+      height: 5px;
+      background-color: red;
+}
