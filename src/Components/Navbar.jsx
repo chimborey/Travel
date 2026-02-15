@@ -35,7 +35,7 @@ const Navbar = () => {
                                     <Link to={'/about'} className='font-text' onClick={() => setIsMenu("about")}>{isMenu === "about" ? <hr /> : <></>}about</Link>
                                     <Link to={'/services'} className='font-text' onClick={() => setIsMenu("services")}>{isMenu === "services" ? <hr /> : <></>}services</Link>
                                     <Link to={'/packages'} className='font-text' onClick={() => setIsMenu("pockagos")}>{isMenu === "pockagos" ? <hr /> : <></>}packages</Link>
-                                    <Link to={'/why us'} className='font-text' onClick={() => setIsMenu("why us")}>{isMenu === "why us" ? <hr /> : <></>}why us</Link>
+                                    <Link to={'/whyus'} className='font-text' onClick={() => setIsMenu("why us")}>{isMenu === "why us" ? <hr /> : <></>}why us</Link>
                                     <Link to={'/contact'} className='font-text' onClick={() => setIsMenu("contact")}>{isMenu === "contact" ? <hr /> : <></>}contact</Link>
                               </div>
                         </div>
@@ -61,7 +61,7 @@ const Navbar = () => {
                               <Link to={'/about'} className='font-text' onClick={() => setIsMenu("about")}>{isMenu === "about" ? <hr /> : <></>}about</Link>
                               <Link to={'/services'} className='font-text' onClick={() => setIsMenu("services")}>{isMenu === "services" ? <hr /> : <></>}services</Link>
                               <Link to={'/packages'} className='font-text' onClick={() => setIsMenu("pockagos")}>{isMenu === "pockagos" ? <hr /> : <></>}packages</Link>
-                              <Link to={'/why us'} className='font-text' onClick={() => setIsMenu("why us")}>{isMenu === "why us" ? <hr /> : <></>}why us</Link>
+                              <Link to={'/whyus'} className='font-text' onClick={() => setIsMenu("why us")}>{isMenu === "why us" ? <hr /> : <></>}why us</Link>
                               <Link to={'/contact'} className='font-text' onClick={() => setIsMenu("contact")}>{isMenu === "contact" ? <hr /> : <></>}contact</Link>
                         </div>
                   </div>
